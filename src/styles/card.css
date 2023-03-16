@@ -1,0 +1,48 @@
+
+
+
+
+/* cards body  */
+
+
+.cards{
+    position: relative;
+    background-color: rgb(242, 241, 240);
+    border-radius: 10px;
+    display: flex;
+    flex: 1 0 0px;
+    margin: 1em;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1em;
+    height: 380px;
+    justify-content: flex-start;
+    overflow: hidden;
+    padding-top: 36px;
+    position: relative;
+    width: 86%;
+    will-change: transform;
+    z-index: 1;
+}
+
+
+
+
+
+
+.imgCard{
+  position: absolute;
+  top: 0;
+  left: 2em;
+  width: 230px;
+}
+
+
+
+
+
+@media screen and (max-width: 760px){
+    .cards{
+        margin-left: 1.8em;
+    }
+}
